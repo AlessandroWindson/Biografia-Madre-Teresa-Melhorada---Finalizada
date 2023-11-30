@@ -1,0 +1,201 @@
+
+body, h1, h2, h3, h4, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    transition: background-color 0.5s, color 0.5s ease;
+}
+.page-title {
+    color: #222; 
+    transition: color 0.5s ease; 
+}
+
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+#theme-toggle, #btnInicio, #btnBiografia, #btnLegado, #btnMudarFundo {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+#theme-toggle {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+#theme-toggle:hover {
+    background-color: #0056b3;
+}
+
+#btnInicio:hover, #btnBiografia:hover, #btnLegado:hover, #btnMudarFundo:hover {
+    background-color: white;
+    color: black;
+}
+
+hr {
+    border: 3px solid #ddd;
+    margin: 20px 0;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button.active {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+}
+
+section {
+    padding: 20px;
+    background-image: url("Images/Madre Teresa IA.png");
+    background-size: cover;
+    overflow: hidden;
+    height: 800px;
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .formcontainer {
+        float: none;
+        margin: auto;
+    }
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: gray;
+}
+
+.Biografia, .Inicio {
+    color: black;
+    text-align: center;
+    font-size: bold;
+    font-weight: bolder;
+}
+
+#dov {
+    text-align: center;
+}
+
+.Biografia h3, .Biografia h4, .Biografia h5 {
+    text-align: center;
+}
+
+.Biografia p {
+    font-size: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+p {
+    color: black;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}

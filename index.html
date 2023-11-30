@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia de Madre Teresa de Calcutá</title>
+    <style>
+        .centralizar {
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <hr>
+    <h1 class="centralizar page-title">Madre Teresa de Calcutá</h1>
+    <hr>
+    <header>
+        <button id="theme-toggle" class="theme-toggle">Click Dark Mode</button>
+        <div class="topnav">
+            <button onclick="navigate('index.html')" class="active">Início</button>
+            <button onclick="navigate('biography.html')" class="active">Biografia</button>
+            <button onclick="navigate('legacy.html')" class="active">Legado</button>
+        </div>
+    </header>
+    <main>
+        <hr>
+        <h2 class="centralizar">Bem-vindo à Biografia de Madre Teresa de Calcutá</h2>
+        <h3 class="centralizar">Aqui você encontrará informações sobre sua vida e legado.</h3>
+        <hr>
+        <figure class="centralizar">
+            <img height="315px" width="500px" src="Images/Capa.jpg" alt="Imagem Madre Teresa de Calcutá">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/P_W5DinYH5g?si=zzZy6K41SZqsqBFo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </figure>
+        <hr>
+        <section></section>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; 2023 - Biografia - Madre Tedresa de Calcutá. Desenvolvido por 2º Período - ESBAM.</p>
+        <hr>
+    </footer>
+    <script defer src="script.js"></script>
+    <script>
+        function navigate(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+
+</html>
